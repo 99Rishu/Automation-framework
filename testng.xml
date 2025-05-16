@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite" >
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+    <test name="Assetstest">
+        <classes>
+            <class name="tests.Assetstest"/>
+        </classes>
+    </test>
+</suite>
