@@ -148,6 +148,8 @@ public class PMAllOrderstest extends Basetest {
         List<String> allOrders = new ArrayList<>();
         boolean nextPageExists = true;
         int pageCount = 1;
+
+        //count pages from the begining
         
         while (nextPageExists) {
             
