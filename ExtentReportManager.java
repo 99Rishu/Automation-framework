@@ -90,6 +90,7 @@ public class ExtentReportManager {
                             System.out.println("Deleted old screenshot: " + file.getName());
                         } else {
                             System.out.println("Failed to delete old screenshot: " + file.getName());
+                            
                         }
                     }
                 }
